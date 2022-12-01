@@ -1,0 +1,15 @@
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/bin/Debug/net7.0/#002
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/bin/Debug/net7.0/#002.deps.json
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/bin/Debug/net7.0/#002.runtimeconfig.json
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/bin/Debug/net7.0/#002.dll
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/bin/Debug/net7.0/#002.pdb
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.csproj.AssemblyReference.cache
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.AssemblyInfoInputs.cache
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.AssemblyInfo.cs
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.csproj.CoreCompileInputs.cache
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.dll
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/refint/#002.dll
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.pdb
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/#002.genruntimeconfig.cache
+/home/ramzan/Рабочий стол/Practic/Seminar#1/#002/obj/Debug/net7.0/ref/#002.dll
