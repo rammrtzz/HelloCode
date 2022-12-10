@@ -8,8 +8,3 @@
 
 int[] array = { 1, 21, 23, 65, 45, 98, 85, 15, 45 };
 
-int max = Max(
-    Max(a1, b1, c1), 
-    Max(a2, b2, c2), 
-    Max(a3, b3, c3));
-Console.WriteLine(max);
