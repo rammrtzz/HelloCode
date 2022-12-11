@@ -10,14 +10,14 @@
 }
 
 int count = 1;                             //счетчик для заполнения массива интересными числами
+int[] interesticNumber = new int[10];
 
 while (count < 11)
 {
-    int N = new Random().Next(10, 1000);    
+    int N = new Random().Next(10, 1000);
     int size = GetLengthOfNumber(N);
-
-    int[] interesticNumber = new int[10];
-    int[] examination = new int[size];     // массив для сбора цифр из числа для проверки
+    int[] examination = new int[size];
+    // массив для сбора цифр из числа для проверки
     int temp = N;                          //сохраняю число N временную переменную, так как в процессе проверки число N меняется
     int sum = 0;
     int multiply = 1;
@@ -32,11 +32,14 @@ while (count < 11)
 
     if (multiply % sum == 0)
     {
-        interesticNumber[count-1] = temp;  //для более удобного вывода элементов массива, чтобы нумерация начиналась с 1
-        Console.WriteLine(count + " -е интересное число! " + temp);
+        interesticNumber[count - 1] = temp;  //для более удобного вывода элементов массива, чтобы нумерация начиналась с 1
         count++;
     }
 
+}
+for (int i = 0; i < interesticNumber.Length; i++)
+{
+    Console.WriteLine((i + 1) + " - е интересное число - " + interesticNumber[i]);
 }
 
 /*
