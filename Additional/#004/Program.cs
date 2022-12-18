@@ -1,20 +1,22 @@
-﻿int N = new Random().Next(1, 100);
-N = Convert.ToInt32(N);
+﻿int N = new Random().Next(1, 10);
 int[] array = new int[N];
 float average = 0;
-float geometric = 0;
+double geometric = 1;
 double geometricSum = 0;
 float result = 0;
 
 for (int i = 0; i < N; i++)
 {
-    array[i] = new Random().Next(1, 100);
+    array[i] = new Random().Next(1, 10);
+    Console.WriteLine(" - " + array[i]);
     average += array[i];
     geometric *= array[i];
 }
-average = (float)average / array.Length;
-geometricSum = Math.Pow(geometric, 1 / array.Length);
-result = (float)average / geometricSum;
+double s = 1 / (double)N;
+average = (float)average / N;
+geometricSum = Math.Pow(geometric, s);
+result = average / (float)geometricSum;
+Console.WriteLine("Для проверки: " + geometric);
 Console.WriteLine("Среднее арифметическое: " + average);
 Console.WriteLine("Среднее геометрическое: " + geometricSum);
 Console.WriteLine("Результат - среднее арифметическое / среднее геометрическое: " + result);
